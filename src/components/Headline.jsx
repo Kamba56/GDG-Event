@@ -2,7 +2,7 @@ import './styles/headline.css';
 
 const Headline = () => (
   <section className='headline-grid inner-container'>
-    <div className='one item-a google-font'>
+    <div className='one item-a google-font flex-center'>
       <p>Let’s build a </p>
       <span> better world together</span>
     </div>

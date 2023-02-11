@@ -45,7 +45,6 @@ a {
   width: 100%;
   padding: 8px 4%;
 }
-
 .inner-container {
   width: 100%;
   max-width: 1366px;
@@ -78,16 +77,20 @@ a {
   line-height: 10px;
   text-transform: uppercase;
   text-align: center;
+  width: fit-content;
+  white-space: nowrap;
 }
 
 @media only screen and (min-width: 768px) {
   .container {
     padding: 18px 6%;
   }
+}
 
+@media only screen and (min-width: 1366px) {
   .reserve-btn {
     padding: 15px 28px;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 20px;
   }
 }
