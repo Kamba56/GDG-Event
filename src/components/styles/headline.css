@@ -120,7 +120,14 @@
   }
 }
 
-@media only screen and (min-width: 1064px) {
+@media only screen and (min-width: 1024px) {
+  .headline-grid {
+    height: 110vh;
+    max-height: none;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
   .item-a {
     font-size: 80px;
     line-height: 80px;
@@ -129,10 +136,5 @@
   .item-d {
     font-size: 29px;
     line-height: 38px;
-  }
-
-  .headline-grid {
-    height: 110vh;
-    max-height: none;
   }
 }
