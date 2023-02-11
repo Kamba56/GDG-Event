@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header className="container">
-    <div className='logo'>
-      <Link to='/'>
-        <img src={logo} alt="logo" />
-      </Link>
-    </div>
+    <nav className='inner-container nav'>
+      <div className='logo'>
+        <Link to='/'>
+          <img src={logo} alt="logo" />
+        </Link>
+      </div>
 
-    <a href='#' className='reserve-btn btn'>Reserve a seat</a>
+      <a href='#' className='reserve-btn btn'>Reserve a seat</a>
+    </nav>
   </header>
 );
 
