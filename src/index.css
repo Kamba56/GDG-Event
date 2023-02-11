@@ -34,3 +34,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.container {
+  width: 100%;
+  padding: 10px 4%;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 20px 6%;
+  }
+}
