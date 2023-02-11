@@ -52,7 +52,6 @@
 
 .headline-grid {
   height: 98vh;
-  /* max-height: 900px; */
   padding-top: 57px;
   display: grid;
   grid-template-columns: 57% calc(43% - 10px);
