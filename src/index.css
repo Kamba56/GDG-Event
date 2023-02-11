@@ -56,8 +56,38 @@ a {
   font-family: 'google_sans';
 }
 
+.flex-justify {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reserve-btn {
+  padding: 10px 20px;
+  background: #0B9D58;
+  border-radius: 45px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 8px;
+  line-height: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
   .container {
     padding: 18px 6%;
+  }
+
+  .reserve-btn {
+    padding: 15px 28px;
+    font-size: 17px;
+    line-height: 20px;
   }
 }

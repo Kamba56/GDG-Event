@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header className="container">
-    <nav className='inner-container nav'>
+    <nav className='inner-container flex-justify'>
       <div className='logo'>
         <Link to='/'>
           <img src={logo} alt="logo" />
         </Link>
       </div>
 
-      <a href='#' className='reserve-btn btn'>Reserve a seat</a>
+      <a href='#' id='btn' className='reserve-btn flex-center'>Reserve a seat</a>
     </nav>
   </header>
 );

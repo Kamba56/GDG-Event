@@ -2,27 +2,12 @@ header {
   background: #fff;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.reserve-btn {
+#btn {
   display: none;
 }
 
-
 @media only screen and (min-width: 768px) {
-  .reserve-btn {
-    padding: 12px 24px;
-    width: 172px;
-    height: 45px;
-    background: #0B9D58;
-    border-radius: 45px;
-    color: #fff;
+  #btn {
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
