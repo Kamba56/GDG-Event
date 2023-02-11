@@ -37,11 +37,11 @@ a {
 
 .container {
   width: 100%;
-  padding: 10px 4%;
+  padding: 8px 4%;
 }
 
 @media only screen and (min-width: 768px) {
   .container {
-    padding: 20px 6%;
+    padding: 18px 6%;
   }
 }
