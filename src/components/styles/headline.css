@@ -1,0 +1,139 @@
+.item-a {
+  grid-area: one;
+  text-align: center;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #000;
+}
+.item-a span {
+  color: #0A9754;
+}
+
+.item-b {
+  grid-area: two;
+  background: #6396E3;
+  border-radius: 16px 16px 146px 16px;
+  background-image: url(../../assets/img2.png);
+}
+
+.item-c {
+  grid-area: three;
+  border-radius: 100px 0px 0px 0px;
+  background-image: url(../../assets/img3.png);
+}
+
+.item-d {
+  grid-area: four;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #000;
+  padding-top: 30px;
+}
+
+.item-e {
+  grid-area: five;
+  border-radius: 10px 100px 16px 10px;
+  background-image: url(../../assets/img5.png);
+}
+
+.item-f {
+  grid-area: six;
+  border-radius: 10px 100px;
+  background-image: url(../../assets/img6.png);
+}
+
+.headline-grid {
+  height: auto;
+  min-height: 98vh;
+  padding: 57px 0;
+  display: grid;
+  grid-template-columns: 57% calc(43% - 10px);
+  grid-template-rows: 28% 22% 22% 28%;
+  column-gap: 10px;
+  row-gap: 15px;
+  grid-template-areas: 
+    "one two"
+    "three two"
+    "four five"
+    "six six"
+  ;
+}
+
+.one {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 375px) {
+  .item-d {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headline-grid {
+    grid-template-columns: 25% calc(50% - 20px) 25%;
+    grid-template-rows: 1fr 0.5fr 1.5fr 1fr;
+    grid-template-areas: 
+      "one one two"
+      "six three two"
+      "six three five"
+      "six four four"
+    ;
+    max-height: 820px;
+    padding-bottom: 0;
+  }
+
+  .item-a {
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: lighter;
+  }
+
+  .item-d {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+  }
+
+  .item-f {
+    border-radius: 16px 146px;
+  }
+
+  .item-c {
+    border-radius: 200px 0px 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .headline-grid {
+    height: auto;
+    max-height: none;
+    min-height: 110vh;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .item-a {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .item-d {
+    font-size: 29px;
+    line-height: 38px;
+  }
+}
