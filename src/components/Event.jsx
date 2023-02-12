@@ -13,7 +13,7 @@ const Events = () => {
       date: 'MAR 4, 2023 - CONFERENCE',
       title: 'Flutter Forward Extended Maiduguri',
       location: 'Maiduguri Nigeria',
-      link: 'https://gdg.community.dev/e/mysv33'
+      link: 'https://gdg.community.dev/e/mysv33',
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const Events = () => {
       date: 'APR 29, 2023 - CONFERENCE',
       title: 'WTM IWD Maiduguri 2023',
       location: 'Maiduguri Nigeria',
-      link: 'https://gdg.community.dev/e/mvj9yt'
+      link: 'https://gdg.community.dev/e/mvj9yt',
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const Events = () => {
       date: 'MAY 6, 2023  -  MAY 20, 2023 CONFERENCE',
       title: 'Building for Everyone',
       location: 'Maiduguri Nigeria',
-      link: 'https://gdg.community.dev/e/mbsdwj'
+      link: 'https://gdg.community.dev/e/mbsdwj',
     },
     {
       id: 4,
@@ -37,8 +37,8 @@ const Events = () => {
       date: 'FEBUARY - APRIL',
       title: 'RGDC  Maiduguri 2023',
       location: 'Maiduguri Nigeria',
-      link: 'https://gdg.community.dev/e/mb3y2b'
-    }
+      link: 'https://gdg.community.dev/e/mb3y2b',
+    },
   ]
 
    return (
