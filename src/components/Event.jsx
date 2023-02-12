@@ -13,27 +13,31 @@ const Events = () => {
       date: 'MAR 4, 2023 - CONFERENCE',
       title: 'Flutter Forward Extended Maiduguri',
       location: 'Maiduguri Nigeria',
+      link: 'https://gdg.community.dev/e/mysv33'
     },
     {
       id: 2,
       picture: event2,
-      date: 'MAR 4, 2023 - CONFERENCE',
-      title: 'Flutter Forward Extended Maiduguri',
+      date: 'APR 29, 2023 - CONFERENCE',
+      title: 'WTM IWD Maiduguri 2023',
       location: 'Maiduguri Nigeria',
+      link: 'https://gdg.community.dev/e/mvj9yt'
     },
     {
       id: 3,
       picture: event3,
-      date: 'MAR 4, 2023 - CONFERENCE',
-      title: 'Flutter Forward Extended Maiduguri',
+      date: 'MAY 6, 2023  -  MAY 20, 2023 CONFERENCE',
+      title: 'Building for Everyone',
       location: 'Maiduguri Nigeria',
+      link: 'https://gdg.community.dev/e/mbsdwj'
     },
     {
       id: 4,
       picture: event4,
-      date: 'MAR 4, 2023 - CONFERENCE',
-      title: 'Flutter Forward Extended Maiduguri',
+      date: 'FEBUARY - APRIL',
+      title: 'RGDC  Maiduguri 2023',
       location: 'Maiduguri Nigeria',
+      link: 'https://gdg.community.dev/e/mb3y2b'
     }
   ]
 
@@ -62,7 +66,7 @@ const Events = () => {
                     </p>
                   </div>
 
-                  <a href='#' className='reserve-btn flex-center'>Reserve a seat</a>
+                  <a href={e.link} className='reserve-btn flex-center'>Reserve a seat</a>
                 </div>
               </div>
             ))

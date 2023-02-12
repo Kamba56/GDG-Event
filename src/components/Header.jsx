@@ -1,6 +1,7 @@
 import './styles/header.css';
 import logo from '../assets/logo.svg';
 import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = () => (
   <header className="container">
@@ -11,7 +12,7 @@ const Header = () => (
         </Link>
       </div>
 
-      <a href='#' id='btn' className='reserve-btn flex-center'>Reserve a seat</a>
+      <AnchorLink href='#events' id='btn' className='reserve-btn flex-center'>Reserve a seat</AnchorLink>
     </nav>
   </header>
 );
