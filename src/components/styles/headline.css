@@ -48,8 +48,9 @@
 }
 
 .headline-grid {
-  height: 98vh;
-  padding-top: 57px;
+  height: auto;
+  min-height: 98vh;
+  padding: 57px 0;
   display: grid;
   grid-template-columns: 57% calc(43% - 10px);
   grid-template-rows: 28% 22% 22% 28%;
@@ -89,6 +90,7 @@
       "six four four"
     ;
     max-height: 820px;
+    padding-bottom: 0;
   }
 
   .item-a {
@@ -118,8 +120,9 @@
 
 @media only screen and (min-width: 1024px) {
   .headline-grid {
-    height: 110vh;
+    height: auto;
     max-height: none;
+    min-height: 110vh;
   }
 }
 

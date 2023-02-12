@@ -47,6 +47,7 @@
   grid-template-columns: calc(100% - 80px);
   grid-template-rows: auto;
   justify-content: center;
+  row-gap: 58px;
 }
 
 .grid-item {
