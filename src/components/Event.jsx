@@ -38,7 +38,7 @@ const Events = () => {
   ]
 
    return (
-    <section className='event container'>
+    <section id='events' className='event container'>
       <div className='inner-container'>
         <h2 className='heading'>Upcoming events</h2>
         <div className='event-grid'>
@@ -50,7 +50,7 @@ const Events = () => {
                   <img src={e.picture} alt="Event cover photo" />
                 </div>
 
-                <div className='container flex-justify'>
+                <div className='container flex-justify' id='details'>
                   <div className='card-details'>
                     <p className='date'>{e.date}</p>
                     <h3 className='title'>{e.title}</h3>
